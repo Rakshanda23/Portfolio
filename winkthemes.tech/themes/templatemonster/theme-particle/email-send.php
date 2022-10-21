@@ -8,7 +8,7 @@ if(isset($_REQUEST['send'])){
     $message=$_REQUEST['message'];
     mail("palakn2410@gmail.com",$sub,$message,$email);
 }
-
+header("Location:index.html");
 //$comments = wordwrap($comments,70);
 // send email
 ?>
